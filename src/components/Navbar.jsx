@@ -41,7 +41,7 @@ function Navbar() {
         </ul>
       </div>
       {isOpen && (
-        <div className="w-full h-full absolute top-0 left-0 bg-white">
+        <div className="sidebar w-full h-full absolute top-0 left-0 bg-white">
           <img
             onClick={() => {
               setIsOpen(false);
@@ -51,18 +51,26 @@ function Navbar() {
             src="https://cdn.iconscout.com/icon/free/png-256/free-cancel-icon-download-in-svg-png-gif-file-formats--multiplication-multiply-x-symbols-pack-sign-icons-37917.png?f=webp&w=256"
             alt=""
           />
-          <ul className="flex justify-center items-center flex-col mt-10 gap-2 text-xl">
+          <ul className=" flex justify-center items-center flex-col mt-10 gap-2 text-xl">
             <li>
-              <Link href={"/"}>Home</Link>
+              <Link className="homeee" onClick={()=>{
+                setIsOpen(false)
+              }} href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={"/about"}>About me</Link>
+              <Link onClick={()=>{
+                setIsOpen(false)
+              }} href={"/about"}>About me</Link>
             </li>
             <li>
-              <Link href={"/projects"}>Projects</Link>
+              <Link onClick={()=>{
+                setIsOpen(false)
+              }} href={"/projects"}>Projects</Link>
             </li>
             <li>
-              <Link href={"/contact"}>Contact</Link>
+              <Link onClick={()=>{
+                setIsOpen(false)
+              }} href={"/contact"}>Contact</Link>
             </li>
           </ul>
         </div>

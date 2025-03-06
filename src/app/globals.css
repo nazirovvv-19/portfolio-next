@@ -35,6 +35,19 @@
       display: block;
       cursor: pointer;
     }
+    .sidebar{
+      animation: nom 1s ease;
+    }
+    .homeee{
+      animation: nomm 1s ease;
+    }
+    @keyframes nom {
+      0%{
+        transform: translateX(350px);
+      }
+      
+    }
+  
   }
   
   @media (min-width: 757px) {
