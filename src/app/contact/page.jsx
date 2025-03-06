@@ -17,7 +17,7 @@ function Page() {
           <label htmlFor="" className="text-center">Xabar</label>
         <textarea className="border-1 w-60 rounded-md p-2 mt-1" name="" id=""></textarea>
         </div>
-        <button className="px-4 py-2 bg-blue-500 text-white ml-38 mt-3 rounded-md">Jo'natish</button>
+        <button className="px-4 py-2 bg-blue-500 text-white ml-38 mt-3 rounded-md">Jo&apos;natish</button>
       </div>
     </div>
   );

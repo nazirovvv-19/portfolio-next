@@ -19,12 +19,12 @@
     }
     
 }
-/* Agar siz to'g'ridan-to'g'ri CSS yozmoqchi bo'lsangiz */
+/* Agar siz to"g"ridan-to"g"ri CSS yozmoqchi bo"lsangiz */
 
 /* Burger menu */
 @media (max-width: 756px) {
     .navbar {
-      display: none; /* Katta ekranda oddiy navbar ko'rsatiladi */
+      display: none; /* Katta ekranda oddiy navbar ko"rsatiladi */
     }
   
     .navbar.open {
